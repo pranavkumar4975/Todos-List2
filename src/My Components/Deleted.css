@@ -1,0 +1,18 @@
+.deleted{
+    width: 80%;
+    margin:auto;
+    min-height: 81.2vh;
+}
+
+.deleted > h3{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.deleted__content{
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}

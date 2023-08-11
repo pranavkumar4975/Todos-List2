@@ -1,0 +1,105 @@
+.login{
+    align-items: center;
+    display: grid;
+    background-color: whitesmoke;
+}
+
+.login__items{
+    display: flex;
+    margin-top: 150px;
+    width: 60%;
+    height: 520px;
+    margin-left: 350px;
+    margin-bottom: 150px;
+}
+
+.login__sign{
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    width: 50%;
+}
+.login__sign > form{
+    padding: 50px;
+}
+
+.login__sign > form > p{
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+.login__register{
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: orange;
+    width: 50%;
+}
+
+
+.login__user{
+    margin-top: 20px;
+}
+
+.login__pwd{
+    margin-top: 40px;
+}
+
+.login__user > input{
+    border: 2px solid whitesmoke;
+    width: 95%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.login__pwd > input{
+    border: 2px solid whitesmoke;
+    width: 95%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.login__sign > form > button{
+    margin-top: 40px;
+    width: 95%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 3px;
+    outline: none;
+}
+
+.sign__items{
+    padding: 150px;
+}
+
+.welcome{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sign__items > button {
+    width: 100px;
+    height: 48px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+}

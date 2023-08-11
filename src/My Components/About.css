@@ -1,0 +1,12 @@
+.about{
+    min-height: 53vh;
+    align-items: center;
+    padding: auto;
+    margin-left: 220px;
+    margin-top: 241px;
+}
+
+.about > h4{
+    color: red;
+    margin-left: 1000px;
+}
